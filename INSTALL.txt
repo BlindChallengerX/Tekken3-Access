@@ -1,0 +1,47 @@
+Tekken 3 Access 1.0 - how to install
+====================================
+
+This is a screen reader mod for the free Tekken 3 PC port (Tekken3-PC).
+The mod does not include the game. You need your own Tekken 3 (USA)
+PlayStation disc image (.bin and .cue files).
+
+STEP 1: GET THE PC PORT
+  Go to https://github.com/Muqaddas12/Tekken3-PC
+  Press the green "Code" button, then "Download ZIP".
+  Extract the zip anywhere, for example to your Downloads folder.
+  You now have a folder (Tekken3-PC or Tekken3-PC-main) with Tekken3.exe in it.
+
+STEP 2: ADD YOUR GAME DATA
+  You need Python installed (python.org, tick "Add python.exe to PATH").
+  Put your Tekken 3 (USA) .bin and .cue files next to the Tekken3-PC folder
+  (or inside it), open a command prompt in the Tekken3-PC folder and run:
+      python setup_game_data.py
+  It fills the game_data folder. You can test that the game runs by
+  starting Tekken3.exe once (Escape opens the port's menu; close with Alt+F4).
+
+STEP 3: ADD THE MOD
+  Extract everything in this zip into the Tekken3-PC folder, so that
+  "Play Tekken 3 Access.exe" sits next to Tekken3.exe and the T3Access
+  folder is inside the Tekken3-PC folder.
+
+STEP 4: CONTROLLER OR KEYBOARD
+  The port uses the keyboard by default and ignores controllers.
+  To play with a controller (Xbox, PS5, PS4 and others, cable or
+  Bluetooth), run "Use controller.bat" once.
+  To go back to the keyboard, run "Use keyboard.bat".
+
+STEP 5: PLAY
+  Always start the game with "Play Tekken 3 Access.exe", not Tekken3.exe.
+  You hear "Tekken 3 Access loaded". Speech goes to your screen reader
+  (NVDA etc.) or the Windows voice. The movies (the opening and every
+  ending) are described in a recorded voice; to hear those lines with your
+  screen reader instead, create an empty file T3Access\ad_reader.txt.
+
+All keys, sounds and controller buttons are explained in T3Access\README.txt.
+
+If Windows SmartScreen warns about the exe: choose "More info", then "Run anyway".
+
+REPORTING PROBLEMS
+  Please send T3Access\T3Access.log and T3Access\launch.log with a note of
+  what you were doing. T3Access.log starts fresh each time you play, so copy
+  it right after the problem happens.
