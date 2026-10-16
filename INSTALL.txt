@@ -1,5 +1,5 @@
-Tekken 3 Access 1.0 - how to install
-====================================
+Tekken 3 Access 1.0.1 - how to install
+======================================
 
 This is a screen reader mod for the free Tekken 3 PC port (Tekken3-PC).
 The mod does not include the game. You need your own Tekken 3 (USA)

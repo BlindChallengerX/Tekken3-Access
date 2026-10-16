@@ -1,5 +1,5 @@
-Tekken 3 Access 1.0
-===================
+Tekken 3 Access 1.0.1
+=====================
 
 Screen reader support for the Tekken 3 PC port (Tekken3.exe). Speech goes
 through Prism to your screen reader (NVDA etc.), or the Windows voice if no
@@ -10,6 +10,13 @@ HOW TO START
   It starts the game and loads the mod. You hear "Tekken 3 Access loaded".
   Nothing in the game folder is replaced. If the port is updated and the mod
   can no longer find the game's code, it says so and stays off.
+
+NEW IN 1.0.1
+  - The distance hum has a volume control: Shift+F1 louder, Control+F1
+    quieter (10 steps; step 0 turns the hum off). It is a little louder by
+    default than in 1.0. The level is remembered.
+  - The hum and the other fight sounds now go silent while the pause menu
+    or its command list is open, and come back when you return to the fight.
 
 NEW IN 1.0 (since the test builds)
   - All mod sounds play cleanly and on time. Before, Windows chopped them
@@ -86,7 +93,9 @@ WHAT IS READ
 
 SOUNDS
   - One-on-one fights: a soft hum while a round is being fought (from
-    "Ready" until K O, Time up and so on; silent in pause and practice menus).
+    "Ready" until K O, Time up and so on; silent in the pause menu, its
+    command list and practice menus). Shift+F1 and Control+F1 make it
+    louder and quieter.
     Higher = closer: about 190 Hz at the start of a round, rising to 330 Hz
     when you are touching, falling to 110 Hz when far apart.
     It leans to your forward side and changes with it: steady when
@@ -154,6 +163,9 @@ KEYS (keyboard)
        ("mid range, 20. Forward is right"; a round starts at 20),
        or in Tekken Force the enemies with distance and side,
        or in Tekken Ball where you are and where the ball is
+  Shift+F1 / Control+F1  distance hum louder / quieter ("Distance hum 8 of
+       10"; 0 turns it off; remembered). Outside a fight you hear the hum
+       briefly at the new level.
   F2   health of you and your opponent
   F3   fight sounds on or off
   F4   Tekken Ball sound guide (each press plays the next sound and explains
@@ -217,3 +229,5 @@ FILES
   T3Access\prism.dll      speech
   T3Access\T3Access.log   what the mod did and said (send this with problem reports)
   T3Access\launch.log     what the launcher did
+  T3Access\hum_volume.txt the distance hum volume you chose (made when you
+                          first change it; delete it for the default)
