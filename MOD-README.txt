@@ -1,4 +1,4 @@
-Tekken 3 Access 1.0.1
+Tekken 3 Access 1.0.2
 =====================
 
 Screen reader support for the Tekken 3 PC port (Tekken3.exe). Speech goes
@@ -10,6 +10,12 @@ HOW TO START
   It starts the game and loads the mod. You hear "Tekken 3 Access loaded".
   Nothing in the game folder is replaced. If the port is updated and the mod
   can no longer find the game's code, it says so and stays off.
+
+NEW IN 1.0.2
+  - Music volume: Shift+F2 louder, Control+F2 quieter (10 steps; 10 is the
+    game's normal level, 0 turns the music off). Only the music changes,
+    not the fighters' voices, hits or the mod's sounds. Movie sound is
+    music too, so it follows this setting. The level is remembered.
 
 NEW IN 1.0.1
   - The distance hum has a volume control: Shift+F1 louder, Control+F1
@@ -167,6 +173,8 @@ KEYS (keyboard)
        10"; 0 turns it off; remembered). Outside a fight you hear the hum
        briefly at the new level.
   F2   health of you and your opponent
+  Shift+F2 / Control+F2  music louder / quieter ("Music 7 of 10"; 0 turns
+       it off; remembered)
   F3   fight sounds on or off
   F4   Tekken Ball sound guide (each press plays the next sound and explains
        it); Shift+F4 / Control+F4 make the swing beats earlier / later
@@ -231,3 +239,4 @@ FILES
   T3Access\launch.log     what the launcher did
   T3Access\hum_volume.txt the distance hum volume you chose (made when you
                           first change it; delete it for the default)
+  T3Access\music_volume.txt the music volume you chose (the same)

@@ -6,7 +6,7 @@ screen reader (NVDA, JAWS and others), or the Windows voice if none is running,
 and adds sounds so blind players can fight by ear.
 
 **Download:** [the latest release](https://github.com/BlindChallengerX/Tekken3-Access/releases/latest)
-(Tekken3Access-1.0.1.zip).
+(Tekken3Access-1.0.2.zip).
 
 ## What you need
 
@@ -26,6 +26,7 @@ and adds sounds so blind players can fight by ear.
   the spot, and three beats that tell you when to swing.
 - The opening and every character's ending are audio described in a natural voice, timed
   to the movie, with the game's sound dipping under each line. Theater mode is read too.
+- A music volume control (the game has none), and a volume control for the distance hum.
 - Xbox and PlayStation controllers, with L3 / R3 for health.
 
 ## Reporting problems
