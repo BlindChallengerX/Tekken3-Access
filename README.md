@@ -6,7 +6,7 @@ screen reader (NVDA, JAWS and others), or the Windows voice if none is running,
 and adds sounds so blind players can fight by ear.
 
 **Download:** [the latest release](https://github.com/BlindChallengerX/Tekken3-Access/releases/latest)
-(Tekken3Access-1.0.2.zip).
+(Tekken3Access-1.0.3.zip).
 
 ## What you need
 

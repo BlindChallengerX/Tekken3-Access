@@ -1,4 +1,4 @@
-Tekken 3 Access 1.0.2
+Tekken 3 Access 1.0.3
 =====================
 
 Screen reader support for the Tekken 3 PC port (Tekken3.exe). Speech goes
@@ -10,6 +10,14 @@ HOW TO START
   It starts the game and loads the mod. You hear "Tekken 3 Access loaded".
   Nothing in the game folder is replaced. If the port is updated and the mod
   can no longer find the game's code, it says so and stays off.
+
+NEW IN 1.0.3
+  - Fixed stuttering mod sounds and movie voice descriptions on some PCs.
+    The mod now plays its sound the same way the game does (WASAPI), which
+    follows your sound card's timing instead of small fixed chunks.
+  - If the mod's sounds still stutter, make an empty file named
+    audio_waveout.txt in the T3Access folder to use the old sound output
+    (now with larger buffers), and send us T3Access\T3Access.log.
 
 NEW IN 1.0.2
   - Music volume: Shift+F2 louder, Control+F2 quieter (10 steps; 10 is the
