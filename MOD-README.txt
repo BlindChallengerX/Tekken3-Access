@@ -1,4 +1,4 @@
-Tekken 3 Access 1.0.3
+Tekken 3 Access 1.0.4
 =====================
 
 Screen reader support for the Tekken 3 PC port (Tekken3.exe). Speech goes
@@ -10,6 +10,17 @@ HOW TO START
   It starts the game and loads the mod. You hear "Tekken 3 Access loaded".
   Nothing in the game folder is replaced. If the port is updated and the mod
   can no longer find the game's code, it says so and stays off.
+
+NEW IN 1.0.4
+  - Fighter names in fights are right for every character. Before, from
+    Bryan on, F2 and the health keys said the next name in the game's list
+    (Heihachi was called Ogre, Ogre Mokujin, True Ogre Tiger, and so on).
+    Character select said Panda for True Ogre; that is fixed too.
+  - Health percentages use the game's own full health, so loading a save
+    state mid-fight, or a Survival round that starts hurt, no longer counts
+    as 100 percent.
+  - The ending that Yoshimitsu and Doctor B share (Ogre's Blood) is now
+    introduced as theirs, not as Doctor B's alone.
 
 NEW IN 1.0.3
   - Fixed stuttering mod sounds and movie voice descriptions on some PCs.
